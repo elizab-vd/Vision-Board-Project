@@ -1,0 +1,148 @@
+/*=======BASE STYLES=======*/
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   background-color: #e8e8e8;
+
+}
+
+#vision-board {
+   width: 1200px;
+   height: 850px;
+   margin: 40px 50px 100px 50px; 
+   background-image: url("../img/background.png");
+}
+    
+.block {
+   float: left;
+   width: 400px;
+   box-sizing: border-box; 
+}  
+
+.light-bg {
+   background-color: #ffffff;
+}
+
+.dark-bg {
+   background-color: #3b3b3b; 
+}
+
+.small-block, .light-bg {
+   height: 210px;
+   margin: 0px;
+   padding: 0px;
+}
+
+.large-block, .dark-bg {
+   height: 430px;
+}
+
+#freelance, #selfcare {
+   clear:both;
+}
+
+#grow, #freelance {
+   text-align: left;
+}
+
+ #travel, #challenge {
+   text-align: right;
+}
+
+#codinglang, #selfcare, #vision, #flower, #doggy {
+   text-align: center;
+}
+
+h1 {
+   text-transform: capitalize; 
+   font-size: 30px; 
+}
+
+p {
+   text-transform: uppercase; 
+}
+
+h3 {
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 38px; 
+   color: #ffffff; 
+   padding: 0;
+   margin: 0; 
+}
+
+span {
+   background-color: #ffff4f;
+   padding: 5px 15px;
+   line-height: 55px;
+}
+
+#grow p {
+   line-height: 40px;
+   margin: 25px 0 -10px 40px; 
+}
+
+h2 {
+   text-transform: capitalize; 
+   font-size: 30px; 
+   padding: 0 0 50px 40px; 
+   margin: 0px;
+   font-size: 38px; 
+}
+#flower img {
+   padding-top: 20px;    
+}
+
+#codinglang p {
+   padding-top: 15px;
+}
+
+#freelance p {
+   margin: 60px 0 -10px 40px; 
+}
+
+#freelance h2 {
+   text-transform: none;
+   padding-bottom: 15px; 
+   margin-top: 5px; 
+   
+}
+#freelance img {
+   margin-left: 40px; 
+   margin-top: 0; 
+}
+
+#vision img {
+   margin-top: 60px; 
+}
+
+h1 {
+   color: #ffffff; 
+   text-transform: uppercase; 
+   margin: 0;
+   padding: 0; 
+}
+
+#travel img {
+   margin: 65px 35px 0 0; 
+}
+
+#travel p {
+   margin: 15px 35px -10px 0; 
+}
+
+#travel h2, #challenge h2 {
+   margin-right: 35px; 
+   margin-top: 5px; 
+}
+
+#selfcare p {
+   padding-top: 40px; 
+}
+
+#doggy img {
+   padding-top: 35px; 
+}
+
+#challenge p {
+   margin: 25px 35px -10px 0; 
+}
